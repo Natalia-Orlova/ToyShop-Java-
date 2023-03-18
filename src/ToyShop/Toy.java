@@ -3,14 +3,16 @@ package ToyShop;
 public class Toy {
     private int id;
     private String name;
-    private int count;
+    private int toyCount;
     private double frequency;
 
-    public Toy(int id, String name, int count, double frequency) {
+    private int totalToysSum = 200;
+
+    public Toy(int id, String name, int count) {
         this.id = id;
         this.name = name;
-        this.count = count;
-        this.frequency = frequency;
+        this.toyCount = count;
+        this.frequency = count * 100 / totalToysSum;
     }
 
     public int getId() {
@@ -21,21 +23,29 @@ public class Toy {
         return name;
     }
 
-    public int getCount() {
-        return count;
+    public int getToyCount() {
+        return toyCount;
+    }
+
+    public void setToyCount(int toyCount) {
+        this.toyCount = toyCount;
     }
 
     public double getFrequency() {
         return frequency;
     }
 
+    public void setFrequency(double frequency) {
+        this.frequency = frequency;
+    }
+
     @Override
     public String toString() {
-        return "Toy{" +
+        return "Toy: " +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", count=" + count +
+                ", count=" + toyCount +
                 ", frequency=" + frequency +
-                '}';
+                '%'+ "\n";
     }
 }
