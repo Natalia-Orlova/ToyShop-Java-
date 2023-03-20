@@ -10,13 +10,12 @@ public class Controller {
                 new Toy(1, "Lego", 10),
                 new Toy(2, "Ball", 20),
                 new Toy(3, "ToyGun", 30),
-                new Toy(5, "HuggyWuggy", 60),
-                new Toy(6, "KissyMissy", 80)
+                new Toy(4, "HuggyWuggy", 60),
+                new Toy(5, "KissyMissy", 80)
         );
         System.out.println(toyList);
 
         ToyShop ts = new ToyShop(toyList);
-        ts.drawToys();
 
         try (Scanner in = new Scanner(System.in)) {
 
@@ -29,7 +28,7 @@ public class Controller {
                 System.out.print("\033[H\033[J");
                 switch (key) {
                     case "1":
-                        ts.drawToys();
+                        ts.drawToys(toyList);
                         break;
                     case "2":
                         // метод выдачи игрушки

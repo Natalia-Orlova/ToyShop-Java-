@@ -39,6 +39,10 @@ public class Toy {
         this.frequency = frequency;
     }
 
+    public String toFileString() {
+        return String.format("%d, %s", id, name);
+    }
+
     @Override
     public String toString() {
         return "Toy: " +

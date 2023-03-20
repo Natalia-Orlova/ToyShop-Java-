@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32243c3d-01c1-467b-863c-945cb023afc8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ToyShop/DataWriter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ToyShop/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToyShop/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ToyShop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToyShop/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ToyShop/Toy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToyShop/Toy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ToyShop/ToyShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToyShop/ToyShop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ToyShop/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToyShop/View.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
