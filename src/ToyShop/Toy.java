@@ -6,7 +6,7 @@ public class Toy {
     private int toyCount;
     private double frequency;
 
-    private int totalToysSum = 10;
+    private int totalToysSum = 100;
 
     public Toy(int id, String name, int count) {
         this.id = id;

@@ -5,7 +5,7 @@ import java.util.List;
 
 public class ToyShop {
     private List<Toy> toys;
-    private int totalToysSum = 10;
+    private int totalToysSum = 100;
 
     public ToyShop(List<Toy> toys) {
         this.toys = toys;
@@ -13,13 +13,10 @@ public class ToyShop {
 
     public List<Toy> getToys() {
         List<Toy> copyToy = new ArrayList<>();
-        for (Toy toy : toys) {
-            copyToy.add(toy);
-        }
+        copyToy.addAll(toys);
         return copyToy;
     }
 
-    DataWriter dw = new DataWriter();
     // розыгрыш
     public int drawToys(List<Toy> toys) {
         int res;
@@ -41,17 +38,18 @@ public class ToyShop {
 
 
     //выдача игрушки
+    DataWriter dw = new DataWriter();
     public void giveOutToy(ArrayList<Integer> giveAway, List<Toy> toys) {
         int id = giveAway.get(0)-1;
         giveAway.remove(0);
         totalToysSum = totalToysSum - 1; // меньшаем общее кол-во игрушек
         toys.get(id).setToyCount(toys.get(id).getToyCount() - 1); // уменьшаем кол-во каждого вида игрушек
         dw.writeToFile(toys.get(id));
-
         System.out.println("Игрушки для выдачи: " + giveAway);
         System.out.println("Остаток игрушек: " + totalToysSum);
     }
 
+    //добавить игрушку в магазин
     public void addToy(Toy toy) {
         toys.add(toy);
         totalToysSum++;

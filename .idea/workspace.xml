@@ -7,6 +7,7 @@
       <change beforePath="$PROJECT_DIR$/src/ToyShop/DataWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToyShop/DataWriter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ToyShop/Toy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToyShop/Toy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ToyShop/ToyShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToyShop/ToyShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ToyShop/View.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>

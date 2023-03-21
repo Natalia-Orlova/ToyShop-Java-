@@ -1,12 +1,10 @@
 package ToyShop;
 
-import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.List;
 
 public class DataWriter {
-
+    //записываем в файл игрушки, которые уже разыграли и выдали победителям
     public static void writeToFile(Toy toy) {
         try (FileWriter writer = new FileWriter("РазыгранныеИгрушки.txt", true)) {
             writer.write(toy.toFileString());
