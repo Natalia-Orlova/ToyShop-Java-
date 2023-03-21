@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32243c3d-01c1-467b-863c-945cb023afc8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ToyShop/DataWriter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ToyShop/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToyShop/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ToyShop/DataWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToyShop/DataWriter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ToyShop/Toy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToyShop/Toy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ToyShop/ToyShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToyShop/ToyShop.java" afterDir="false" />
     </list>
@@ -81,5 +81,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
